@@ -29,7 +29,7 @@
       ]
     },
     "versionFirst": "4.3.2",
-    "uniqCompNum": 49,
+    "uniqCompNum": 50,
     "versionPublish": "4.3.2"
   },
   "pages": {
@@ -419,21 +419,21 @@
             "showButtons": false,
             "showArrow": true,
             "contentAlign": "center",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/maintain-1000x500.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#41a85f",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "overlayOpacity": "0.8"
           },
           "title": "Our Mission on maintenance \n",
-          "text": "At Hlaziya our aim is to make the installation and maintenance of your doors as inconspicuous as possible. We aim to ensure your doors are an inviting entrance, not foreboding barriers. We have developed an excellent reputation for delivering everything we promise and our clients appreciate our impartial advice, our helpful staff, our efficient services and our effective products. We maintain our high standards through the quality of our people, the training and investments into staff development and equipping them with the latest tools and technology that enable us to provide quality assurance and guarantees.",
+          "text": "&nbsp;At Hlaziya Interiors, our aim is to make the installation and maintenance of your doors as simple as possible. We aim to ensure your doors are an inviting entrance with no operational difficulties. We have developed an excellent reputation. Our clients appreciate our impartial advice, helpful staff, efficient services and our effective products. We maintain our high standards through the quality of our people, the training and investments into staff development and equipping them with the latest tools and technology that enable us to provide quality assurance and guarantees",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_tags": [
             "Theme"
@@ -558,6 +558,63 @@
               "text-align": "center"
             }
           }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "labelsColor": "#232323",
+            "paddingTop": "1",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Contact us for a free presentation",
+          "subtitle": "This is an obligation-free presentation and training on acoustic material and design for offices and boardrooms ",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "form": {
+            "action": "info@hlaziya.co.za",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-1d"
         }
       ]
     },
@@ -674,7 +731,7 @@
             "overlayColor": "#ffffff",
             "overlayOpacity": 0.5
           },
-          "title": "The acoustic demountable partitioning",
+          "title": "The acoustic de-mountable partitioning",
           "text": "Privacy and functionality meet with our range of impressive products<span style=\"font-style: normal;\"><br></span>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Download Partitioning Brochure &nbsp;</a>  ",
           "_tags": [
@@ -684,7 +741,8 @@
           "_anchor": "header1-m",
           "_styles": {
             ".mbr-section-title": {
-              "color": "#000000"
+              "color": "#000000",
+              "font-size": "60px"
             },
             ".mbr-section-lead": {
               "color": "#000000",

@@ -558,6 +558,9 @@ h6,
 #msg-box4-l P {
   text-align: center;
 }
+#form1-1d .form-control-label {
+  color: #232323;
+}
 
 #menu-d .hide-buttons .nav-btn {
   display: none !important;
@@ -622,6 +625,7 @@ h6,
 }
 #header1-m .mbr-section-title {
   color: #000000;
+  font-size: 60px;
 }
 #header1-m .mbr-section-lead {
   color: #000000;
