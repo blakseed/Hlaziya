@@ -51,7 +51,7 @@
             "showArrow": true,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/home-hlaziya-interiors-2000x1000.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/home-hlaziya-interiors-2000x1000.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#a07e49",
@@ -167,13 +167,13 @@
           "caption2": "Save on repair costs by keeping your doors and cabinetry maintained at a regular basis&nbsp;",
           "title3": "Residential",
           "subtitle3": "Residential kitchens and other joinery units",
-          "caption3": "Explore our range of exquisite Italian kitchens, designed and imported to you. &nbsp;",
+          "caption3": "Explore our range of exquisite Italian kitchens, designed and imported to you &nbsp;",
           "title4": "Building Management Consulting",
           "subtitle4": "Project management and consultation services on working spaces",
-          "caption4": "We will help you project-manage and design spaces more efficiently and comply with the latest standards and green-rating requirements.&nbsp;",
+          "caption4": "We will help you project-manage and design spaces more efficiently and comply with the latest standards and green-rating requirements&nbsp;",
           "title5": "Acoustic Office Partitioning",
           "subtitle5": "Acoustic partiitioning for offices and boardrooms",
-          "caption5": "Modular demountable glass partitioning that offers flexibility, natural light and acoustic partitioning.&nbsp;",
+          "caption5": "Modular demountable glass partitioning that offers flexibility, natural light and acoustic partitioning&nbsp;",
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
@@ -1850,63 +1850,6 @@
             }
           },
           "_anchor": "contacts2-18"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showSubTitle": true,
-            "labelsColor": "#232323",
-            "paddingTop": "0",
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "Contact us for a free presentation",
-          "subtitle": "This is an obligation-free presentation and training on acoustic material and design for offices and boardrooms ",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
-          "form": {
-            "action": "info@hlaziya.co.za",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          },
-          "_anchor": "form1-1b"
         }
       ]
     }
