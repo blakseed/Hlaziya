@@ -485,9 +485,6 @@ h6,
 #menu-5 .dropdown-item[aria-expanded="true"] {
   color: #28ba20!important;
 }
-#contacts2-10 STRONG {
-  color: #ffffff;
-}
 #menu-6 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -853,7 +850,4 @@ h6,
 #menu-17 .link[aria-expanded="true"],
 #menu-17 .dropdown-item[aria-expanded="true"] {
   color: #28ba20!important;
-}
-#contacts2-18 STRONG {
-  color: #ffffff;
 }
