@@ -25,11 +25,13 @@
         "#232323",
         "#878889",
         "#258e3b",
-        "#00861c"
+        "#00861c",
+        "#5b5b5b",
+        "#282727"
       ]
     },
     "versionFirst": "4.3.2",
-    "uniqCompNum": 59,
+    "uniqCompNum": 86,
     "versionPublish": "4.3.2"
   },
   "pages": {
@@ -44,34 +46,454 @@
       },
       "components": [
         {
-          "_inherit": "header1",
           "_params": {
             "showTitle": true,
             "showText": false,
             "showButtons": false,
-            "showArrow": false,
-            "contentAlign": "right",
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "5",
+            "paddingBottom": "6",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/home-hlaziya-interiors-2000x1000.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/office-background-1999x1333.jpg",
             "parallax": true,
             "bgColorRadio": false,
-            "bgColor": "#a07e49",
+            "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": "0.9"
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
           },
-          "title": "UNDER CONSTRUCTION",
-          "text": "Intro with background video and color overlay. Text and buttons are aligned to right. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/blacka-dn-white-logo-1400x610.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Access flooring and glass office walling",
+          "text": "Solid color intro with an image on the right side. Also this block has no paddings.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "header4",
-          "_anchor": "header4-1m"
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-21",
+          "_styles": {
+            "H3": {
+              "font-size": "23px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "columnsColor": "#efefef",
+            "paddingTop": 2,
+            "paddingBottom": "0",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/access-floor-502x502.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "page4.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/maintain-500x500.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "page1.html",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/kitchen-600x600.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "page5.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/home_offer4_bg-576x298.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/home_offer1_bg-576x298.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Access Flooring",
+          "subtitle1": "For internal and external application",
+          "caption1": "See the wide range of access flooring that can be used internally and externally with a lifetime guarantee",
+          "title2": "Building Maintenance",
+          "subtitle2": "Building maintainence",
+          "caption2": "Save on repair costs by keeping your doors and cabinetry maintained at a regular basis&nbsp;",
+          "title3": "Residential",
+          "subtitle3": "Residential kitchens and other joinery units",
+          "caption3": "Explore our range of exquisite Italian kitchens, designed and imported to you &nbsp;",
+          "title4": "Building Management Consulting",
+          "subtitle4": "Project management and consultation services on working spaces",
+          "caption4": "We will help you project-manage and design spaces more efficiently and comply with the latest standards and green-rating requirements&nbsp;",
+          "title5": "Acoustic Office Partitioning",
+          "subtitle5": "Acoustic partiitioning for offices and boardrooms",
+          "caption5": "Modular demountable glass partitioning that offers flexibility, natural light and acoustic partitioning&nbsp;",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"page4.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"page1.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"page5.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"page6.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"page3.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text": {
+              "color": "#000000"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-title": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "features1-25"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "columnsColor": "#ffffff",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/access-floor-502x502.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "page4.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/maintain-500x500.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "page1.html",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/kitchen-600x600.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "page5.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/home_offer4_bg-576x298.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/home_offer1_bg-576x298.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Building Management Consulting",
+          "subtitle1": "Project management and consultation services on working spaces",
+          "caption1": "We will help you project-manage and design spaces more efficiently and comply with the latest standards and green-rating requirements ",
+          "title2": "Acoustic Office Partitioning",
+          "subtitle2": "Acoustic partiitioning for offices and boardrooms",
+          "caption2": "Modular demountable glass partitioning that offers flexibility, natural light and acoustic partitioning ",
+          "title3": "Contact Us",
+          "subtitle3": "Complete an easy form and we will contact you\r",
+          "caption3": "We also offer free training. We come to your offices to have an informative presentation on acoustic partitioning and access flooring to give your designers flexibility in their design&nbsp;<br>",
+          "title4": "Building Management Consulting",
+          "subtitle4": "Project management and consultation services on working spaces",
+          "caption4": "We will help you project-manage and design spaces more efficiently and comply with the latest standards and green-rating requirements&nbsp;",
+          "title5": "Acoustic Office Partitioning",
+          "subtitle5": "Acoustic partiitioning for offices and boardrooms",
+          "caption5": "Modular demountable glass partitioning that offers flexibility, natural light and acoustic partitioning&nbsp;",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"page6.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"page3.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"page7.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"page6.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"page3.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text": {
+              "color": "#000000"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-title": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "features1-22"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#282727",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "The Offices of Hyde Park\nStrouthos Road\nHyde Park\nSandton",
+              "placeId": "ChIJ3cWKTLIMlR4Rwhf4haMb4E8",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>The Offices of Hyde Park<br>Block B, First Floor<br>Strouthos Road<br>Hyde Park<br>Sandton<br>2196<br><br>\n<strong>Contacts</strong><br>Email: info@hlaziya.co.za<br>\nPhone: +127 11 268 5727&nbsp;<br><br>",
+          "text2": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-23"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.65rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.704rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#424242"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#535353!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#5b5b5b"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#28ba20!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#5b5b5b",
+            "fontSize": "0.65",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\">Home</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Acoustic Partitioning</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Access Flooring</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Italian Kitchens</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Maintenance</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Building Consulting</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/hlaziya-213x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Hlaziya Interiors</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-24"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#5b5b5b",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2016 Hlaziya",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-26"
         }
       ]
     },
@@ -138,13 +560,13 @@
             "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "bgColor": "#28ba20",
+            "bgColor": "#5b5b5b",
             "fontSize": "0.65",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">Access Flooring</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">Acoustic Partitioning</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Maintenance</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Consulting and Project Management</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">Residential</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\">Home</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Acoustic Partitioning</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Access Flooring</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Italian Kitchens</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Maintenance</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Building Consulting</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -437,13 +859,13 @@
             "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "bgColor": "#28ba20",
+            "bgColor": "#5b5b5b",
             "fontSize": "0.65",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">Access Flooring</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">Acoustic Partitioning</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Maintenance</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Consulting and Project Management</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">Residential</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\">Home</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Acoustic Partitioning</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Access Flooring</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Italian Kitchens</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Maintenance</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Building Consulting</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -742,13 +1164,13 @@
             "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "bgColor": "#28ba20",
+            "bgColor": "#5b5b5b",
             "fontSize": "0.65",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">Access Flooring</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">Acoustic Partitioning</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Maintenance</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Consulting and Project Management</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">Residential</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\">Home</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Acoustic Partitioning</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Access Flooring</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Italian Kitchens</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Maintenance</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Building Consulting</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1128,13 +1550,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#1f8e19"
+              "background": "#424242"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#25ad1e!important"
+              "background": "#535353!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#28ba20"
+              "background": "#5b5b5b"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -1157,13 +1579,13 @@
             "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "bgColor": "#28ba20",
+            "bgColor": "#5b5b5b",
             "fontSize": "0.65",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">Access Flooring</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">Acoustic Partitioning</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Maintenance</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Consulting and Project Management</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">Residential</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\">Home</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Acoustic Partitioning</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Access Flooring</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Italian Kitchens</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Maintenance</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Building Consulting</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1209,7 +1631,7 @@
           },
           "title": "High Quality Italian Kitchens &nbsp;",
           "text": "We import and install top-quality Italian kitchens for VIP clients across South Africa. We are best known for long-lasting quality and the highest value for money - an exceptional investment to your property",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://www.scic.it/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Visit Italian website</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://www.scic.it/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Visit the Italian website</a> ",
           "_tags": [
             "Theme"
           ],
@@ -1261,7 +1683,7 @@
           },
           "title": "Design, import and install",
           "text": "Our residential division personalises the design of all kitchens to the client’s desire, needs and dimensional requirements. All kitchens are installed with high-quality material. We work with the client from design phase to the final handover",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://www.scic.it/listino-prezzi-cataloghi-cucine-moderne-stili/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MORE</a>",
           "_tags": [
             "Theme"
           ],
@@ -1544,13 +1966,13 @@
             "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "bgColor": "#28ba20",
+            "bgColor": "#5b5b5b",
             "fontSize": "0.65",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">Access Flooring</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">Acoustic Partitioning</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Maintenance</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Consulting and Project Management</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">Residential</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\">Home</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Acoustic Partitioning</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Access Flooring</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Italian Kitchens</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Maintenance</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Building Consulting</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1578,170 +2000,37 @@
     },
     "page7.html": {
       "settings": {
-        "title": "Hlaziya Interiors",
-        "meta_descr": "",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": "",
+        "meta_descr": "Web Page Creator Description",
+        "title": "Hlaziya Interiorrs - Contact Us - Access Flooring and Office Partitioning Solutions",
         "order": 1
       },
       "components": [
         {
           "_params": {
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/home-hlaziya-interiors-2000x1000.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#a07e49",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#41a85f",
-            "overlayOpacity": 0.5
-          },
-          "title": "",
-          "text": "Welcome to Hlaziya Interirors,&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_anchor": "header1-1i"
-        },
-        {
-          "_params": {
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": true,
-            "showButtons": true,
-            "columnsColor": "#efefef",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": "5",
+            "paddingTop": "4",
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/home-offer10-bg-576x298.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
+            "bgColor": "#282727",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "The Offices of Hyde Park\nStrouthos Road\nHyde Park\nSandton",
+              "placeId": "ChIJ3cWKTLIMlR4Rwhf4haMb4E8",
+              "state": "ok",
+              "stateDetails": ""
             }
           },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/home-offer11-bg-576x298.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/home-offer10-bg-576x298.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/home-offer4-bg-576x298.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/home-offer1-bg-576x298.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title1": "Access Flooring",
-          "subtitle1": "For internal and external application",
-          "caption1": "See the wide range of access flooring that can be used internally and externally with a lifetime guarantee",
-          "title2": "Building Maintenance",
-          "subtitle2": "Building maintainence",
-          "caption2": "Save on repair costs by keeping your doors and cabinetry maintained at a regular basis&nbsp;",
-          "title3": "Residential",
-          "subtitle3": "Residential kitchens and other joinery units",
-          "caption3": "Explore our range of exquisite Italian kitchens, designed and imported to you &nbsp;",
-          "title4": "Building Management Consulting",
-          "subtitle4": "Project management and consultation services on working spaces",
-          "caption4": "We will help you project-manage and design spaces more efficiently and comply with the latest standards and green-rating requirements&nbsp;",
-          "title5": "Acoustic Office Partitioning",
-          "subtitle5": "Acoustic partiitioning for offices and boardrooms",
-          "caption5": "Modular demountable glass partitioning that offers flexibility, natural light and acoustic partitioning&nbsp;",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"page4.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"page1.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"page5.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"page6.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"page3.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "text1": "<strong>Address</strong><br>The Offices of Hyde Park<br>Block B, First Floor<br>Strouthos Road<br>Hyde Park<br>Sandton<br>2196<br><br>\n<strong>Contacts</strong><br>Email: info@hlaziya.co.za<br>\nPhone: +127 11 268 5727&nbsp;<br><br>",
+          "text2": "",
           "_tags": [
             "Theme"
           ],
-          "_name": "features1",
-          "_styles": {
-            ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#efefef"
-            },
-            ".mbr-cards-col:nth-child(odd) .card-text": {
-              "color": "#000000"
-            },
-            ".mbr-cards-col:nth-child(odd) .card-title": {
-              "color": "#000000"
-            }
-          },
-          "_anchor": "features1-1j"
+          "_name": "contacts2",
+          "_anchor": "contacts2-27"
         },
         {
           "_styles": {
@@ -1770,13 +2059,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#1f8e19"
+              "background": "#424242"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#25ad1e!important"
+              "background": "#535353!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#28ba20"
+              "background": "#5b5b5b"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -1799,13 +2088,13 @@
             "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "bgColor": "#28ba20",
+            "bgColor": "#5b5b5b",
             "fontSize": "0.65",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">Access Flooring</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">Acoustic Partitioning</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Maintenance</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Consulting and Project Management</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">Residential</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\">Home</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Acoustic Partitioning</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Access Flooring</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Italian Kitchens</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Maintenance</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Building Consulting</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1827,7 +2116,7 @@
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-1k"
+          "_anchor": "menu-28"
         },
         {
           "_params": {
@@ -1837,17 +2126,77 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#00861c",
+            "bgColor": "#5b5b5b",
             "overlay": true,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Call our offices: +27 11 568 2397 ",
+          "text": "Copyright (c) 2016 Hlaziya",
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-1l"
+          "_anchor": "footer1-29"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "labelsColor": "#cccccc",
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#282727",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Contact us for a free presentation",
+          "subtitle": "This is an obligation-free presentation and training on acoustic material and design for offices and boardrooms ",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "form": {
+            "action": "info@hlaziya.co.za",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#cccccc"
+            },
+            ".mbr-section-title": {
+              "color": "#efefef"
+            }
+          },
+          "_anchor": "form1-2a"
         }
       ]
     }
