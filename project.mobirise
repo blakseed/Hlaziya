@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-11-13_1510",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -484,7 +484,7 @@
             },
             "overlay": true,
             "overlayColor": "#000",
-            "overlayOpacity": "0.8"
+            "overlayOpacity": "0.7"
           },
           "title": "Our Mission on maintenance \n",
           "text": "&nbsp;At Hlaziya Interiors, our aim is to make the installation and maintenance of your doors as simple as possible. We aim to ensure your doors are an inviting entrance with no operational difficulties. We have developed an excellent reputation. Our clients appreciate our impartial advice, helpful staff, efficient services and our effective products. We maintain our high standards through the quality of our people, the training and investments into staff development and equipping them with the latest tools and technology that enable us to provide quality assurance and guarantees",
