@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-11-13_1510",
-    "currentPage": "page7.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -32,7 +32,9 @@
     },
     "versionFirst": "4.3.2",
     "uniqCompNum": 91,
-    "versionPublish": "4.3.2"
+    "versionPublish": "4.5.4",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -71,7 +73,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/blacka-dn-white-logo-1400x610.png",
+              "src": "@PROJECT_PATH@/assets/images/green-logo-alone-945x409.png",
               "link": "",
               "alt": "",
               "title": ""
@@ -140,7 +142,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/maintain-500x500.jpg",
+              "src": "@PROJECT_PATH@/assets/images/maintenance-picture-600x600.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -405,13 +407,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#1f8e19"
+              "background": "#424242"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#25ad1e!important"
+              "background": "#535353!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#28ba20"
+              "background": "#5b5b5b"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -472,7 +474,7 @@
             "showArrow": true,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/maintain-1000x500.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/maintenance-picture-1200x680.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#41a85f",
