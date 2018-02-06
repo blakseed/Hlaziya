@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-11-13_1510",
-    "currentPage": "page4.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -251,8 +251,8 @@
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8,
             "googleMap": {
-              "address": "The Offices of Hyde Park\nStrouthos Road\nHyde Park\nSandton",
-              "placeId": "ChIJ3cWKTLIMlR4Rwhf4haMb4E8",
+              "address": "The Offices of Hyde Park\n1 Strouthos Road\nHydr Park\nSandton\n2196\nHlaziya Interiors",
+              "placeId": "ChIJyfO_ULIMlR4RgrI8tt0zwC4",
               "state": "ok",
               "stateDetails": ""
             }
@@ -1928,8 +1928,8 @@
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8,
             "googleMap": {
-              "address": "The Offices of Hyde Park\nStrouthos Road\nHyde Park\nSandton",
-              "placeId": "ChIJ3cWKTLIMlR4Rwhf4haMb4E8",
+              "address": "The Offices of Hyde Park\n1 Strouthos Road\nHydr Park\nSandton\n2196\nHlaziya Interiors",
+              "placeId": "ChIJyfO_ULIMlR4RgrI8tt0zwC4",
               "state": "ok",
               "stateDetails": ""
             }
@@ -2224,8 +2224,8 @@
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8,
             "googleMap": {
-              "address": "The Offices of Hyde Park\nStrouthos Road\nHyde Park\nSandton",
-              "placeId": "ChIJ3cWKTLIMlR4Rwhf4haMb4E8",
+              "address": "The Offices of Hyde Park\n1 Strouthos Road\nHydr Park\nSandton\n2196\nHlaziya Interiors",
+              "placeId": "ChIJyfO_ULIMlR4RgrI8tt0zwC4",
               "state": "ok",
               "stateDetails": ""
             }
