@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-11-13_1510",
-    "currentPage": "page3.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -1216,7 +1216,7 @@
             "showArrow": true,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x13039.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x130310.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#a07e49",
@@ -1248,7 +1248,7 @@
             "paddingBottom": 2,
             "columns": "3",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x13039.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x130310.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#ffffff",
