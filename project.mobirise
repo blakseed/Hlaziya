@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-11-13_1510",
-    "currentPage": "index.html",
+    "currentPage": "page3.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -31,7 +31,7 @@
       ]
     },
     "versionFirst": "4.3.2",
-    "uniqCompNum": 102,
+    "uniqCompNum": 103,
     "versionPublish": "4.5.4",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -222,7 +222,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/1490090455-xw-m3-p90-1426x1735.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -261,6 +261,20 @@
                 "contentAlign": "right",
                 "text": "Ideal for training rooms and large boardrooms ",
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">SEE MORE</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/cabinetry-1224x918.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=KAw2yzcLOcc",
+                "title": "Executive Furniture",
+                "overlay": true,
+                "contentAlign": "left",
+                "text": "World-class furniture and office acoustic materials and cladding<br>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ]
           },
@@ -900,7 +914,7 @@
           "_inherit": "header1",
           "_params": {
             "showTitle": true,
-            "showText": false,
+            "showText": true,
             "showButtons": false,
             "showArrow": true,
             "contentAlign": "right",
@@ -921,7 +935,7 @@
             "overlayOpacity": 0.5
           },
           "title": "A wide range of acoustic partitioning products",
-          "text": "Intro with background video and color overlay. Text and buttons are aligned to right. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.",
+          "text": "Single and double glazing systems that are flexible and movable. Ideal for open plans that demand flexibility or traditional office floors.\n<br>All products are acoustic and guarantee privacy and functionality. One can easily incorporate interactive surfaces such as writing boards or digital screens for collaborative or private use &nbsp;<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_tags": [
             "Theme"
@@ -1202,7 +1216,7 @@
             "showArrow": true,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x13038.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x13039.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#a07e49",
@@ -1234,7 +1248,7 @@
             "paddingBottom": 2,
             "columns": "3",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x13038.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x13039.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#ffffff",
