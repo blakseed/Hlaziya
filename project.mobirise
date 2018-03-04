@@ -232,7 +232,7 @@
                 "overlay": true,
                 "contentAlign": "left",
                 "text": "Perfectly designed acoustic sliding door; the first of its kind<br>",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE MORE</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">SEE MORE</a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x1303.jpg",
@@ -274,7 +274,7 @@
                 "overlay": true,
                 "contentAlign": "left",
                 "text": "World-class furniture and office acoustic materials and cladding<br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE MORE</a> "
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"page8.html\" data-toolbar=\"-mbrBtnMove\">SEE MORE</a> "
               }
             ]
           },
@@ -1405,7 +1405,7 @@
             "showArrow": true,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x13030.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x13031.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#a07e49",
@@ -1437,7 +1437,7 @@
             "paddingBottom": 2,
             "columns": "3",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x13030.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x13031.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#ffffff",
