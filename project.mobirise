@@ -31,7 +31,7 @@
       ]
     },
     "versionFirst": "4.3.2",
-    "uniqCompNum": 110,
+    "uniqCompNum": 118,
     "versionPublish": "4.5.4",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -109,7 +109,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"index.html\">hOME</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"index.html\">HOME</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -162,10 +162,11 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/green-logo-alone-945x409.png",
-              "link": "",
+              "src": "@PROJECT_PATH@/assets/images/green-website-logo-1400x711.png",
+              "link": "index.html",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -547,7 +548,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"index.html\">hOME</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"index.html\">HOME</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -600,10 +601,11 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/green-logo-alone-945x409.png",
-              "link": "",
+              "src": "@PROJECT_PATH@/assets/images/green-website-logo-1400x711.png",
+              "link": "index.html",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -632,7 +634,7 @@
               "text-align": "left"
             }
           },
-          "_anchor": "msg-box5-30"
+          "_anchor": "msg-box5-39"
         },
         {
           "_params": {
@@ -909,7 +911,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"index.html\">hOME</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"index.html\">HOME</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -962,10 +964,11 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/green-logo-alone-945x409.png",
-              "link": "",
+              "src": "@PROJECT_PATH@/assets/images/green-website-logo-1400x711.png",
+              "link": "index.html",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -994,13 +997,13 @@
               "text-align": "left"
             }
           },
-          "_anchor": "msg-box5-2z"
+          "_anchor": "msg-box5-38"
         },
         {
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": false,
+            "showButtons": true,
             "showArrow": true,
             "contentAlign": "center",
             "bgImageRadio": true,
@@ -1018,7 +1021,7 @@
           },
           "title": "The acoustic de-mountable partitioning",
           "text": "<span style=\"font-style: normal;\">Privacy and functionality meet with our range of impressive products<br></span>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Download Partitioning Brochure &nbsp;</a>  ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.quadrifoglio.com/public/download/cataloghi/16_XW_Catalogue.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD PARTITIONING BROCHURE</a>  ",
           "_tags": [
             "Theme"
           ],
@@ -1310,7 +1313,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"index.html\">hOME</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"index.html\">HOME</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1363,10 +1366,11 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/green-logo-alone-945x409.png",
-              "link": "",
+              "src": "@PROJECT_PATH@/assets/images/green-website-logo-1400x711.png",
+              "link": "index.html",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -1395,7 +1399,7 @@
               "text-align": "left"
             }
           },
-          "_anchor": "msg-box5-2y"
+          "_anchor": "msg-box5-37"
         },
         {
           "_params": {
@@ -1405,7 +1409,7 @@
             "showArrow": true,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x13031.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x13030.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#a07e49",
@@ -1437,7 +1441,7 @@
             "paddingBottom": 2,
             "columns": "3",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x13031.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/b-dsc-0007-1-2000x13030.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#ffffff",
@@ -1822,7 +1826,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"index.html\">hOME</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"index.html\">HOME</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1875,10 +1879,11 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/green-logo-alone-945x409.png",
-              "link": "",
+              "src": "@PROJECT_PATH@/assets/images/green-website-logo-1400x711.png",
+              "link": "index.html",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -1907,7 +1912,7 @@
               "text-align": "left"
             }
           },
-          "_anchor": "msg-box5-2x"
+          "_anchor": "msg-box5-36"
         },
         {
           "_params": {
@@ -2036,10 +2041,11 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/green-logo-alone-945x409.png",
-              "link": "",
+              "src": "@PROJECT_PATH@/assets/images/green-website-logo-1400x711.png",
+              "link": "index.html",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -2068,7 +2074,7 @@
               "text-align": "left"
             }
           },
-          "_anchor": "msg-box5-2w"
+          "_anchor": "msg-box5-35"
         },
         {
           "_params": {
@@ -2278,7 +2284,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"index.html\">hOME</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"index.html\">HOME</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -2340,10 +2346,11 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/green-logo-alone-945x409.png",
-              "link": "",
+              "src": "@PROJECT_PATH@/assets/images/green-website-logo-1400x711.png",
+              "link": "index.html",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -2372,7 +2379,7 @@
               "text-align": "left"
             }
           },
-          "_anchor": "msg-box5-31"
+          "_anchor": "msg-box5-34"
         },
         {
           "_params": {
@@ -2463,7 +2470,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"index.html\">hOME</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"index.html\">HOME</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -2605,10 +2612,11 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/green-logo-alone-945x409.png",
-              "link": "",
+              "src": "@PROJECT_PATH@/assets/images/green-website-logo-1400x711.png",
+              "link": "index.html",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -2637,7 +2645,7 @@
               "text-align": "left"
             }
           },
-          "_anchor": "msg-box5-2v"
+          "_anchor": "msg-box5-33"
         },
         {
           "_params": {
@@ -2822,7 +2830,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"index.html\">hOME</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"index.html\">HOME</a></li>",
           "logo": {
             "image": {
               "active": true,
