@@ -31,7 +31,7 @@
       ]
     },
     "versionFirst": "4.3.2",
-    "uniqCompNum": 135,
+    "uniqCompNum": 136,
     "versionPublish": "4.11.6",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -3227,7 +3227,7 @@
     },
     "page10.html": {
       "settings": {
-        "meta_descr": "Website Builder Description",
+        "meta_descr": "Low prices on 3-ply surgical face masks and 70% alcohol hand sanitizer. Available during COVID-19 lockdown. Free delivery. Available in South Africa. ",
         "title": "PPE, 3-Ply Surgical Masks and Hand Sanitizer - Hlaziya",
         "order": 9
       },
@@ -3352,11 +3352,11 @@
           "_name": "extGallery4",
           "_customHTML": "<section class=\"extGallery\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n    <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"6\" step=\"1\" value=\"1\">\n    <input type=\"color\" title=\"Hover Color\" name=\"boxColor\" value=\"#258e3b\" selected>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n      <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n      <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n  </mbr-parameters>\n\n  <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n  <div class=\"container-fluid\">\n    <div class=\"row justify-content-center align-left\">\n\n      <div mbr-class=\"{'col-lg-2 col-md-6': slidesCount == 6, 'col-md-4': slidesCount == 5, 'col-lg-3 col-md-6': slidesCount == 4, 'col-lg-4 col-md-4': slidesCount == 3, 'col-md-6': slidesCount == 2}\">\n        <div class=\"wrapper\">\n          <img class=\"photo\" src=\"@PROJECT_PATH@/assets/images/corona-header-2535x705.png\" alt=\"Mobirise\" title>\n        </div>\n      </div>\n      <div mbr-class=\"{'col-lg-2 col-md-6': slidesCount == 6, 'col-md-4': slidesCount == 5, 'col-lg-3 col-md-6': slidesCount == 4, 'col-lg-4 col-md-4': slidesCount == 3, 'col-md-6': slidesCount == 2}\" mbr-if=\"slidesCount > 1\">\n        <div class=\"wrapper\">\n          <img class=\"photo\" src=\"../_images/img/02.jpg\" alt=\"Mobirise\">\n        </div>\n      </div>\n      <div mbr-class=\"{'col-lg-2 col-md-6': slidesCount == 6, 'col-md-4': slidesCount == 5, 'col-lg-3 col-md-6': slidesCount == 4, 'col-lg-4 col-md-4': slidesCount == 3}\" mbr-if=\"slidesCount > 2\">\n        <div class=\"wrapper\">\n          <img class=\"photo\" src=\"../_images/img/03.jpg\" alt=\"Mobirise\">\n        </div>\n      </div>\n      <div mbr-class=\"{'col-lg-2 col-md-6': slidesCount == 6, 'col-md-4': slidesCount == 5, 'col-lg-3 col-md-6': slidesCount == 4}\" mbr-if=\"slidesCount > 3\">\n        <div class=\"wrapper\">\n          <img class=\"photo\" src=\"../_images/img/04.jpg\" alt=\"Mobirise\">\n        </div>\n      </div>\n      <div mbr-class=\"{'col-lg-2 col-md-6': slidesCount == 6, 'col-md-4': slidesCount == 5}\" mbr-if=\"slidesCount > 4\">\n        <div class=\"wrapper\">\n          <img class=\"photo\" src=\"../_images/img/05.jpg\" alt=\"Mobirise\">\n        </div>\n      </div>\n      <div class=\"col-lg-2 col-md-6\" mbr-if=\"slidesCount > 5\">\n        <div class=\"wrapper\">\n          <img class=\"photo\" src=\"../_images/img/06.jpg\" alt=\"Mobirise\">\n        </div>\n      </div>\n\n    </div>\n  </div>\n</section>",
           "_cid": "rYnFXF4FhZ",
+          "_anchor": "extGallery4-3q",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "extGallery4-3q"
+          "_params": {}
         },
         {
           "_params": {
@@ -3540,6 +3540,107 @@
             }
           },
           "_anchor": "form1-3l"
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "!isAMP",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".google-map": {
+              "height": "25rem",
+              "position": "relative",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "font-family": "Montserrat",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                },
+                "&::after": {}
+              }
+            },
+            ".container-fluid": {
+              "padding": "0"
+            },
+            ".relative": {
+              "position": "relative",
+              "width": "100%"
+            },
+            ".mbr-section-title": {
+              "color": "#656565"
+            },
+            ".block": {
+              "background": "rgba(50, 50, 50, 0.8)",
+              "position": "absolute",
+              "padding": "2rem",
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "width": "400px",
+              "height": "100%",
+              "top": "0",
+              "right": "0"
+            },
+            ".line": {
+              "height": "3px",
+              "width": "60px",
+              "background": "@linec",
+              "margin": "auto",
+              "margin-bottom": "1rem",
+              "margin-top": "1rem"
+            },
+            ".title": {
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            ".text": {
+              "text-align": "center",
+              "color": "#ffffff",
+              "line-height": "1.5"
+            },
+            "@media (max-width: 576px)": {
+              ".block": {
+                "position": "relative",
+                "width": "100%",
+                "height": "auto",
+                "padding": "6rem 2rem"
+              }
+            }
+          },
+          "_name": "extMap2",
+          "_customHTML": "<section class=\"extMap\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" value=\"0\">\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"ChIJyfO_ULIMlR4RgrI8tt0zwC4\" value=\"Hlaziya Interiors\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text Block\" name=\"text\" checked>\n        <input type=\"checkbox\" title=\"Show Line\" name=\"showLine\" checked>\n        <header>Colors</header>\n        <input type=\"color\" value=\"#ffffff\" name=\"linec\" title=\"Line\" selected condition=\"showLine\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/background1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#ffffff\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=x9vz-axHndk\" title=\"Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#656565\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <div class=\"container-fluid\">\n\n        <div class=\"d-flex justify-content-center\">\n            <div class=\"relative\">\n                <div class=\"google-map\" mbr-map=\"googleMap\">\n                </div>\n                <div class=\"block\" mbr-if=\"text\">\n                    <h2 class=\"title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" data-app-selector=\".title\">Our Office</h2>\n                    <div class=\"line\" mbr-if=\"showLine\"></div>\n                    <p class=\"mbr-fonts-style mbr-text text\" mbr-theme-style=\"display-7\" data-app-selector=\".text\">The Offices of Hyde Park, 1 Strouthos Road<br>Phone: 011 268 5727</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rYnNbAnML1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "extMap2-3r"
         }
       ]
     }
